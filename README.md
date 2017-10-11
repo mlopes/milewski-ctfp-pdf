@@ -44,6 +44,20 @@ $ ls **/*.tex | entr make
 
 This will monitor all the `*.tex` files for changes, and will execute the `make` command if any of them changes. This speeds up development significantly, as you can freely modify any of the files, and get almost instant feedback!
 
+Building ePub and Mobi
+----------------------
+
+To build the book in ePub format, you'll need to have `pandoc` installed.
+After installing the dependencies just run:
+
+```bash
+$ make epub
+```
+
+Currently it's not possible to generate a mobi yet, because the ePub is
+missing a book title, so the conversion tools fail to generate a mobi. As soon
+as I manage to add metadata to the book I'll try to automate this step.
+
 Acknowledgements
 ----------------
 

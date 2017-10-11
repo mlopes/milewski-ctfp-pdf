@@ -42,7 +42,7 @@ epub:
 	content/3.8/images/* \
 	content/3.9/images/* \
 	images/
-	pandoc -S -t epub3 -o milewski-ctfp.epub \
+	pandoc -S -M title="Category Theory for Programmers" -t epub3 -o milewski-ctfp.epub \
                     content/0.0/Preface.tex content/1.1/Category\ -\ The\ Essence\ of\ Composition.tex content/1.2/Types\ and\ Functions.tex content/1.3/Categories\ Great\ and\ Small.tex content/1.4/Kleisli\ Categories.tex content/1.5/Products\ and\ Coproducts.tex content/1.6/Simple\ Algebraic\ Data\ Types.tex content/1.7/Functors.tex \
                     content/1.8/Functoriality.tex content/1.9/Function\ Types.tex content/1.9/Function\ Types.tex content/1.10/Natural\ Transformations.tex \
                     content/2.1/Declarative\ Programming.tex content/2.2/Limits\ and\ Colimits.tex content/2.3/Free\ Monoids.tex content/2.4/Representable\ Functors.tex content/2.5/The\ Yoneda\ Lemma.tex content/2.6/Yoneda\ Embedding.tex content/3.1/It\'s\ All\ About\ Morphisms.tex content/3.2/Adjunctions.tex \

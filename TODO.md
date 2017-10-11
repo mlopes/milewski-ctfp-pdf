@@ -7,7 +7,8 @@ and then improve how it's done, and add the missing non essential content
 (cover, preamble, postamble, etc...)
 
 - [x] Image paths are not found when generating epub because they're not relative to `src/` root
-- [ ] Missing title
+- [X] Missing title
+- [ ] Missing TOC causes kindlegen export to fail
 - [ ] Missing cover
 - [ ] Missing preamble because of the file causing an error when generating the epub
 - [ ] Figure why it doesn't work using the `ctfp.tex` file

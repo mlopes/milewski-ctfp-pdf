@@ -54,9 +54,14 @@ After installing the dependencies just run:
 $ make epub
 ```
 
-Currently it's not possible to generate a mobi yet, because the ePub is
-missing a book title, so the conversion tools fail to generate a mobi. As soon
-as I manage to add metadata to the book I'll try to automate this step.
+Currently it's not possible to generate a mobi yet, because of an error during
+the mobi generation:
+
+```
+   Error(prcgen):E24011: TOC section scope is not included in the parent
+   chapter:Zeroth Power
+   Error(prcgen):E24001: The table of content could not be built.
+```
 
 Acknowledgements
 ----------------

@@ -14,5 +14,8 @@
 *.out
 *.swp
 *~
+*.epub
+*.mobi
+
 coverpage.pdf
 ctfp.fdb_latexmk
